@@ -1,0 +1,6 @@
+[submodule "buena-backend"]
+	path = buena-backend
+	url = https://github.com/LissouDev/buena-backend
+[submodule "buena-frontend"]
+	path = buena-frontend
+	url = https://github.com/LissouDev/buena-frontend
