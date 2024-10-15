@@ -11,7 +11,7 @@ The main technology is:
 - [React](https://react.dev/)
 - [Typescript](https://console.neon.tech/)
 
-## Project setup
+## Project local setup
 
 First make sure you have the submodules up to date.
 
@@ -27,19 +27,17 @@ $ cd buena-backend
 
 $ npm install
 
-$ npm build
+$ npm run build
 
 $ cd ../buena-frontend
 
 $ npm install
 
-$ npm build
+$ npm run build
 
 ```
 
 This application uses [concurrently](https://www.npmjs.com/package/concurrently) to simultanously run backend and frontend.
-
-Please note that the backend is mocked for demo purposes.
 
 To start the app, run the following command in the frontend folder:
 
@@ -50,6 +48,10 @@ $ npm run start
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 The form is available at [http://localhost:3000/form/](http://localhost:3000/form/).
+
+## Deployment
+
+The app is hosted on AWS Amplify for demo purposes. 
 
 ## Unit tests for frontend and backend
 
