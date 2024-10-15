@@ -13,19 +13,33 @@ The main technology is:
 
 ## Project setup
 
-First you need to install the dependencies in both backend and frontend folders.
+First make sure you have the submodules up to date.
 
 ```bash
-$ cd backend-buena
+git submodule update --init
+```
+
+Then you need to install the dependencies in both backend and frontend folders.
+
+```bash
+
+$ cd buena-backend
 
 $ npm install
 
-$ cd ../frontend-buena
+$ npm build
+
+$ cd ../buena-frontend
 
 $ npm install
+
+$ npm build
+
 ```
 
 This application uses [concurrently](https://www.npmjs.com/package/concurrently) to simultanously run backend and frontend.
+
+Please note that the backend is mocked for demo purposes.
 
 To start the app, run the following command in the frontend folder:
 
