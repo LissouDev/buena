@@ -37,21 +37,23 @@ $ npm run build
 
 ```
 
-This application uses [concurrently](https://www.npmjs.com/package/concurrently) to simultanously run backend and frontend.
+As the backend is not hosted (yet) it will not be possible to run simultanously frontend and backend without the .env file.
 
-To start the app, run the following command in the frontend folder:
+To start the app, run the following command in the frontend or backend folder:
 
 ```bash
 $ npm run start
 ```
 
+## In the Frontend
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 The form is available at [http://localhost:3000/form/](http://localhost:3000/form/).
 
-## Deployment
+## In the Backend
 
-The app is hosted on AWS Amplify for demo purposes. 
+Example of request: GET http://localhost:4000/api/users
 
 ## Unit tests for frontend and backend
 
@@ -60,6 +62,10 @@ To run the tests, run the following command in the frontend or backend folder:
 ```bash
 $ npm run test
 ```
+
+## Deployment
+
+WIP - The app is deployed on AWS Amplify.
 
 ## Screenshots
 
